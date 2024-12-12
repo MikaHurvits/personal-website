@@ -1,0 +1,133 @@
+.hobies-section-container {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 100vw;
+    font-size: x-large;
+    text-align: center;
+    text-shadow: -1px 4px 20px rgba(0,0,0,1);
+
+}
+
+
+.hobies-section-container h3 {
+    font-size: medium;
+}
+
+.hobies-section {
+    /* border: 1px solid red; */
+    padding: 0.5em 0 7em 0;
+/* 
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw; */ 
+    display: grid;
+    min-height: 100%;
+    grid-template-rows: 300px 300px;
+    grid-template-columns: 45vw 45vw;
+    justify-content: center;
+    width: 100vw;
+    box-sizing: border-box;
+
+
+    /* font-size: 10rem; */
+
+    /* display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: clamp(1rem, 3vw, 2rem);
+    padding: clamp(1rem, 3vw, 2rem);
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto; */
+    
+
+}
+
+
+.hoby-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: clamp(1rem, 2vw, 1.5rem);
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    position: relative;
+
+}
+
+.hoby-card p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    text-align: center;
+    width: 80%;
+    font-size: 1em;
+    z-index: 2;
+}
+
+.hoby-card:hover p {
+    display: block;
+    animation: fadeIn 0.3s ease;
+    font-size: small;
+    font-family: "panel", serif;
+}
+
+.hoby-card:hover .hoby-image {
+    opacity: 0.3;
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.hoby-image {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    /* aspect-ratio: 1/1; */
+    object-fit: cover;
+    object-position: center;
+    display: block;
+    overflow: hidden;
+
+
+}
+
+@media (max-width: 1200px) {
+    .hoby-image {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hoby-image {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hoby-image {
+        width: 120px;
+        height: 120px;
+    }
+}

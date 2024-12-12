@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    background-color: #6B8DD9;
+    box-sizing: border-box;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1em;
+
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-size: 10px ;
+
+}
+
+.header a:hover {
+    text-decoration: underline;
+  }
+
+.header-links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 2%;
+    gap: 3vw;
+}
+
+.logo {
+    padding-left: 2vw;
+    width: 5vw;
+}
+

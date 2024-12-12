@@ -1,0 +1,144 @@
+.contact {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 6px;
+
+
+}
+
+
+
+.contact-container {
+    background-color: #BDF1F6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.2rem;
+    color: rgba(66,66,66 ,1);
+    width: 50%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* padding: 2% 3%; */
+    margin: auto;
+    margin-top: 10%;
+    box-sizing: border-box;
+    border-radius: 30px;
+    box-shadow: inset 0 0 30px #1daede;
+    padding: 4em;
+    width: 70%;
+    height:fit-content;
+  }
+
+  .contact-container h1 {
+    font-size: 8em;
+    font-weight: 600;
+    color: rgba(66,66,66 ,1);
+    align-items: center;
+    font-family: "playwrite-cc-at", sans-serif;
+    margin-bottom: 4vh;
+    /* padding: 2em; */
+}
+
+
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 1rem;
+    padding: 5rem;
+    box-sizing: border-box;
+    padding: 0;
+    width: 80%;
+    height: auto;
+  }
+
+
+
+.contact-form span {
+    display: flex;
+    align-items: normal;
+    justify-content: left;
+    flex-direction: column;
+    font-family: "playwrite-cc-at", sans-serif;
+    width: 100%;
+    font-size: 4em;
+
+    /* font-size: 1.5em;
+    font-weight: 600;
+    color: rgba(66,66,66 ,1);
+    align-items: center; */
+}
+
+
+.contact-form input {
+    width: 70%;
+    /* height: 48px; */
+    padding: 7px 14px 7px 14px;
+    /* font-size: 16px; */
+    color: black;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: 3px;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: #d8d7d7;
+    border-radius: 10px;
+  }
+  
+  .contact-form textarea {
+    width: 100%;
+    /* min-height: 220px; */
+    padding: 5px 0px 10px 0px;
+
+    border-top-color: #eeeeee;
+    border-right-color: #eeeeee;
+    border-bottom-color: #eeeeee;
+    border-left-color: #eeeeee;
+
+    /* font-size: 16px; */
+    /* border-radius: 10px; */
+    background-color: #f1f2f3;
+    height: fit-content;
+    min-height: 150px;
+    
+  }
+  
+  .contact-form button {
+    width: auto;
+    /* background-color: url('https://cdn.pixabay.com/photo/2023/04/18/20/21/flowers-7935944_1280.jpg'); */
+    background-color: #00b289;
+    
+    font-size: 4em;
+
+    color: white;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+
+    padding-top: 1px;
+    padding-right: 30px;
+    padding-bottom: 1px;
+    padding-left: 30px;
+
+    padding: 0.5rem 0.7rem;
+
+    border-radius: 35px;;
+
+    cursor: pointer;
+    font-family: "playwrite-cc-at", sans-serif;
+  }
+  

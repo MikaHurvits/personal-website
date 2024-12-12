@@ -1,0 +1,192 @@
+.home {
+    text-align: center;
+    background-color: #fffef4;
+    background-size: cover;
+
+    
+  }
+  
+  
+  .contant-container {
+    width:80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    /* border: 2px solid rgb(153, 24, 24); */
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    
+  } 
+  
+  
+  .intro-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 7vw;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 100px 1em;
+    
+  
+  }
+  
+  
+  
+  .intro-section img{
+    width: 35%;
+    /* box-sizing: border-box; */
+    /* border: 1px solid red; */
+    /* height: 100%; */
+    border-radius: 50%;
+    box-shadow: 10px 10px 127px 12px rgba(232,223,162,1);
+    max-width: 350px;
+  }
+  
+  
+  .intro-text {
+    box-sizing: border-box;
+    width: 50%;
+    text-align: center;
+  
+  }
+  
+  
+
+  .intro-text .hi {
+    /* font-family: "playwrite-cc-at", sans-serif; */
+    font-family: "panel", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3vw;
+  }
+  
+  
+  .welcome-container {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    overflow: hidden; */
+  
+    font-family: "handsome-pro", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  
+  }
+  
+  
+  
+  .intro-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+      
+    
+  }
+  
+  .intro-text .welcome {
+    font-family: "handsome-pro", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 5.4em;
+
+    /* display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0; 
+    letter-spacing: 0.15em;
+    animation: typing 3s steps(35, end) forwards infinite;  */
+  }
+  
+  /* svg {
+    width: 100%;
+    height: 100%;
+  } */
+
+  
+  
+  /* 
+  @keyframes fadeInUp {
+    0% {
+      opacity: 0;
+      transform: translateY(30px) scale(0.9);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+    }
+  } */
+  
+  
+  
+  
+  .name-intro {
+    font-family: "tarif", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: x-large;
+    text-align: center;
+  
+  }
+  
+  
+  .intro-section p{
+    box-sizing: border-box;
+    text-align: center;
+    font-size: small;
+   } 
+  
+  
+  /* .title-intro {
+    /* font-family: "coquette", sans-serif; */
+    /* font-family: "tarif", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 80px;
+    text-align: center; 
+  } */
+
+  svg {
+    /* width: clamp(300px, 50vw, 800px);
+    height: clamp(100px, 15vh, 200px); */
+    width: 100%;
+}
+
+
+
+    .handwriting {
+      font-family: "handsome-pro", sans-serif;
+      font-size: 200px;
+      fill: none;
+      stroke: #000;
+      stroke-width: 1px;
+      stroke-dasharray: 1000;
+      stroke-dashoffset: 1000;
+      animation: write 10s ease forwards, fill 7s ease forwards 30s infinite;
+
+
+  }
+  
+  @keyframes write {
+      to {
+          stroke-dashoffset: 0;
+      }
+  }
+  
+  /* Optional: Add color fill after writing */
+  /* .handwriting {
+      animation: write 4s ease forwards, fill 1s ease forwards 3s;
+  } */
+  
+  @keyframes fill {
+      from {
+          fill: transparent;
+      }
+      to {
+          fill: #000;
+      }
+  }

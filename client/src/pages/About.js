@@ -19,10 +19,10 @@ import './About.css';
 import Footer from "../components/Footer";
 
 const About = () => {
-    const sushiRestaurants = ["Moon (not the one on Bugrashov)", "Namos", "Nylon", "Nooch", "Umami"];
-    const animals = ["Cats", "Dogs", "Parrots", "Hippopotamus", "Elephant", "Lion", "Sloth"];
+    const sushiRestaurants = ["Foo", "Moon (not the one on Bugrashov)", "Namos", "Nylon", "Nooch", "Umami", "TYO"];
+    // const animals = ["Cats", "Dogs", "Parrots", "Hippopotamus", "Elephant", "Lion", "Sloth"];
     const mathematics = ["Calculus", "Linear Algebra", "Combinatorics", "Probability", "Graph Theory", "Number Theory", "Group Theory", "Topology", "Measure Theory", "Differential Geometry"];
-    const computerScience = ["Algorithms", "Data Structures", "Operating Systems", "Computer Networks", "Machine Learning", "Artificial Intelligence"];
+    const computerScience = ["Algorithms", "Data Structures", "Operating Systems", "Computer Networks", "Machine Learning", "Microservice architecture", "OOP", "C/C++", "Java", "Python", ];
     const philosophy = ["Descartes", "Nietzsche", "Spinoza", "Leibniz", "Kant", "Aristotle"];
     
 
@@ -35,9 +35,9 @@ const About = () => {
                 <div className="about-me-text">
                 <p>Hi there! I'm Mika Hurvits, a dedicated programmer and researcher with a strong foundation in computer science and mathematics.</p>
 
-<p>With a proven track record in developing innovative solutions, I thrive on tackling complex challenges in both collaborative and independent settings.</p>
+<p>With a proven experience working on large scale projects, I thrive on tackling complex challenges in both collaborative and independent settings.</p>
 
-<p>I adore freindships and family is incredibly important to me. I'm close to both my parents and my two wonderful sisters, Daria and Rona.</p>
+<p>I adore freindships and family is incredibly important to me, my two wonderful sisters, Daria and Rona are my best friends.</p>
 
 <p>I'm also a proud cat mom to Alan, named after Alan Turing, whom I adopted in 2021.</p>
 
@@ -74,10 +74,10 @@ const About = () => {
                     category="Sushi Restaurants" 
                     interstsList={sushiRestaurants} 
                 />
-                <TalkToMeAbout 
+                {/* <TalkToMeAbout 
                     category="Animals" 
                     interstsList={animals} 
-                />
+                /> */}
                 <TalkToMeAbout 
                     category="Mathematics" 
                     interstsList={mathematics} 

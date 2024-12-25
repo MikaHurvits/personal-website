@@ -15,7 +15,7 @@
     color: white;
     text-decoration: none;
     margin-left: 15px;
-    font-size: 10px ;
+    font-size: x-small;
 
 }
 
@@ -33,6 +33,6 @@
 
 .logo {
     padding-left: 2vw;
-    width: 5vw;
+    width: 10vw;
 }
 

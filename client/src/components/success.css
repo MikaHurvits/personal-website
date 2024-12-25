@@ -1,0 +1,24 @@
+.success-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.success-page h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.success-page p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.success-page button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}

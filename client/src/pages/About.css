@@ -21,7 +21,7 @@
     font-family: "handsome-pro", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 4.4em;
+    font-size: xx-large;
     text-align: center;
     padding-top: 1.5em;
 }
@@ -90,7 +90,7 @@
 .interests-grid {
     border: 1px solid black;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: start;
     gap:3em;
     flex-wrap: wrap;

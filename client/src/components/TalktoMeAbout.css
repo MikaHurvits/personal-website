@@ -5,9 +5,8 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
-
-
-
+    /* font-size: small; */
+    padding: 14px;
 
 
 
@@ -17,8 +16,11 @@
     font-family: "handsome-pro", sans-serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 1.4em;
+    font-size: large;
     display: block;
+    padding: 1rem;
+    text-align: center;
+
 }
 
 .interests-list {
@@ -29,10 +31,20 @@
 
 }
 
+.interests-section h2{
+    font-weight: 100;
+    font-style: normal;
+    margin: 0.4em;
+    /* font-size: 4vw; */
+    font-size: xx-large;
+}
+
+
 .interests-list p{
     font-family: "tarif", sans-serif;
     font-weight: 100;
     font-style: normal;
     margin: 0.4em;
-    font-size: 1rem;
+    /* font-size: 2vw; */
+    font-size: small;
 }

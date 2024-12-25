@@ -9,11 +9,12 @@
 
 h1 {
   margin-bottom: 10px;
+  font-size: 3vw;;
 }
 
 .status {
   margin: 10px 0;
-  font-size: 1.2rem;
+  font-size: 2vw;
   font-weight: bold;
 }
 
@@ -56,4 +57,9 @@ h1 {
 
 .reset-button:hover {
   background-color: #45a049;
+}
+
+
+.popup h2 {
+  font-size: large;
 }

@@ -142,3 +142,16 @@
     font-family: "playwrite-cc-at", sans-serif;
   }
   
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 0.5em;
+}
+
+
+.success {
+  color: green;
+  font-size: 1em;
+  margin-top: 1em;
+}

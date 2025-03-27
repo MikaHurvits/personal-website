@@ -50,15 +50,37 @@ const Home = () => {
   <img src={profile}/>
   </section>
 
-  <p className='intro-cv'>
-I'm a software developer with expertise in cybersecurity, web development, and data analysis. With experience from elite intelligence units to industry leaders like Red Hat, I combine technical proficiency with a passion for solving complex problems.
+  <div className='intro-cv'>
 
-My journey spans developing cluster optimization algorithms, creating threat assessment tools, and fine-tuning NLP models. I thrive in dynamic environments where I can apply my background in computer science and mathematics to build innovative solutions.
 
-Whether crafting secure web applications, optimizing data processing systems, or mentoring the next generation of developers, I bring curiosity, collaboration, and a drive for excellence to everything I do.
+  <section id="introduction">
+        <p>a software developer with over five years of experience in software development, web technologies, and networking research.</p>
+        <p>My experience includes roles in both corporate and freelance environments, where I developed scalable solutions, automated processes, and contributed to research.</p>
+    </section>
+    
+    <section id="skills">
+        <h2>Basic Technical Skills and Areas Of Work: </h2>
+        <ul>
+            <li>Programming languages: Python, Java, C, JavaScript</li>
+            <li>Web technologies: React, HTML, CSS, Node.js</li>
+            <li>Databases: MongoDB, PostgreSQL</li>
+            <li>Tools and frameworks: Git, Numpy, Pandas</li>
+            <li>Core competencies: OOP, Data Structures, Algorithms</li>
+            <li>Networking knowledge: HTTP/HTTPS, DNS, TCP/UDP, TLS, VPN, IPv4/IPv6</li>
+        </ul>
+    </section>
+    
+    <section id="education">
+        <h2>Education: </h2>
+        <p>Holds a B.Sc. in Computer Science and Mathematics from Tel Aviv University.</p>
+    </section>
+    
+    <section id="community">
+        <h2>Community Involvement: </h2>
+        <p>Active community contributor at QueenB foundation, mentoring female high school students in Java and Python programming.</p>
+    </section>
 
-Explore my portfolio to see how my technical skills and creative approach can benefit your next project.
-  </p>
+  </div>
   {/* <HobiesSection/> */}
   
 

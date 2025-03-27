@@ -9,8 +9,10 @@
   
 .intro-cv {
   padding: 3vh 8vw;
-  font-size: xx-small;
+  /* font-size: xx-small; */
   text-align: left;
+  font-size: 1.4vw;
+
 }
 
   .contant-container {
@@ -97,6 +99,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 3vw;
+
       
     
   }
@@ -141,7 +145,9 @@
     font-family: "tarif", sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: x-large;
+    /* font-size: x-large; */
+    font-size: 3vw;
+
     text-align: center;
   
   }
@@ -150,7 +156,9 @@
   .intro-section p{
     box-sizing: border-box;
     text-align: center;
-    font-size: small;
+    /* font-size: small; */
+    font-size: 2.3vw;
+
    } 
   
   

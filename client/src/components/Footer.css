@@ -1,5 +1,7 @@
 .footer {
-    background-color: pink;
+    /* background-color: pink; */
+    background-color: rgb(44, 53, 65);
+    color: #fff;
     padding: 1rem 0;
     margin-top: 0;
     width: 100%;

@@ -2,6 +2,7 @@
     padding: 8em 12em;
     max-width: 800px;  /* Reduced for a single column layout */
     margin: 0 auto;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 
@@ -31,13 +32,12 @@
 
 
 
-
 .project-card {
-    /* background: #ffffff; */
+    background: #ffffff;
     border-radius: 8px;
-    /* padding: 1.5rem;   */
-    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
-    /* transition: transform 0.2s ease; */
+    padding: 1.5rem;   
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
     width: 100%;  /* Ensure cards take full width */
 
 }
@@ -50,7 +50,7 @@
     margin: 0 0 0.8rem 0;
     color: #333;
     /* font-size: 3em; */
-    font-size: x-large;
+    font-size: large;
 }
 
 .project-card p {

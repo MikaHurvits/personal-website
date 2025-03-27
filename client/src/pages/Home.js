@@ -38,15 +38,27 @@ const Home = () => {
     </span>
 
 
-  <p className="name-intro"> I'm Mika Hurvits </p>
-  <p className="title-intro">Computer Scientist | Mathematician | Human</p>
-  {/* <p className='text-intro'>I am passionate about solving complex problems and always looking for ways to innovate and improve. I thrive on learning, collaboration, and making an impact.</p> */}
+  {/* <p className="name-intro"> I'm Mika Hurvits </p> */}
+  <p className="title-intro"> I'm Mika Hurvits </p>
+  {/* <p className="title-intro">Computer Scientist | Mathematician | Human</p> */}
+  
+
+  
   </span> 
   {/* </link> */}
 
   <img src={profile}/>
   </section>
 
+  <p className='intro-cv'>
+I'm a software developer with expertise in cybersecurity, web development, and data analysis. With experience from elite intelligence units to industry leaders like Red Hat, I combine technical proficiency with a passion for solving complex problems.
+
+My journey spans developing cluster optimization algorithms, creating threat assessment tools, and fine-tuning NLP models. I thrive in dynamic environments where I can apply my background in computer science and mathematics to build innovative solutions.
+
+Whether crafting secure web applications, optimizing data processing systems, or mentoring the next generation of developers, I bring curiosity, collaboration, and a drive for excellence to everything I do.
+
+Explore my portfolio to see how my technical skills and creative approach can benefit your next project.
+  </p>
   {/* <HobiesSection/> */}
   
 
@@ -65,7 +77,15 @@ const Home = () => {
 */}
 
 {/* </div> */}
-<TicTacToe/>
+{/* <TicTacToe/> */}
+
+
+
+
+
+
+
+
 <LearnMore/>
 
 <Footer/> 

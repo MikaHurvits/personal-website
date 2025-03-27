@@ -33,7 +33,7 @@ const Projects = () => {
 
         networkRelated: [
             {
-                title: "Detecting suspicious behavior in the newwork",
+                title: "Detecting suspicious behavior in the network",
                 description: "A tool for uses HuggingFace transformer models to identify suspicious network activity in pcap files leverages transfer learning with pre-trained language models.",
                 githubLink: "https://github.com/MikaHurvits/Network-Anomaly-Detection",
                 // tags: ["Wireshark", "Network Analysis", "Python"]
@@ -42,15 +42,15 @@ const Projects = () => {
             {
                 title: "Visual diagram of traffic in the network",
                 description: "A system that parses PCAP files to extract network device information and visualize network conversations done in the given pcap file. It provides a tool to generate network diagrams and analyze the traffic between devices.",
-                githubLink: "https://github.com/MikaHurvits/Network-Visualizer",
+                githubLink: "https://github.com/MikaHurvits/Conversations-Visualizer",
                 // tags: ["Wireshark", "Network Analysis", "Python"]
             },
             
             {
-            title: "Detecting suspicious behavior in the newwork",
-            description: "A portfolio website built with React to showcase my projects and skills.",
-            githubLink: "", //add an option for no clicking. (for projects without a repo)
-            // tags: ["Wireshark", "Network Analysis", "Python"]
+                title: "correlating Database into network analysis and trafic identification",
+                description: "designed a system to analyze pcap files while integrating data from a DB (SQL based) containing identifiers of known devices in the network. The system receives as an input a pcap file, extracting from it as many identifiers as possible from Ethernet, IP and transport layer protocols (MAC addresses, IP addresses, TCP/UDP ports). In addition to that, the system also identifies key AAA attributes from protocols such as RADIUS and DIAMETER which improve user and device correlation in dynamic network environments. When processing a pcap file, the system extracts these identifiers and queries the database to map captured data to known identities. This allows the system to trace individual sessions across multiple device and also incorporating Enhanced SQL queries can identify suspicious behavior such as repeated failed logins or unusual session durations.",
+                githubLink: "", //add an option for no clicking. (for projects without a repo)
+                            // tags: ["Wireshark", "Network Analysis", "Python"]
             },
 
         ],
@@ -59,7 +59,7 @@ const Projects = () => {
             {
                 title: "Sarcasm detction in tweets",
                 description: "Performed fine-tuning of both BERT and Llama models for detecting sarcasm in tweets. Implemented in context learning to apply Chain-Of-Thought methodology, further refining the model's ability to discern sarcastic tweets and explaining its decision",
-                githubLink: "https://github.com/yourusername/ml-project",
+                githubLink: "https://github.com/galamit1/TAU-Workshop",
                 // tags: ["Python", "PyTorch", "Machine Learning"]
             },
 
@@ -73,7 +73,7 @@ const Projects = () => {
             {
                 title: "Spectral clustering for tackling complex stuructures for classification",
                 description: "In the process of analysing a network, Spectral Clustering in some cases helps to reveal hidden communities and subnetworks. as well as better identifing more complex communication problems",
-                githubLink: "https://github.com/yourusername/ml-project", //edit
+                githubLink: "https://github.com/MikaHurvits/SpectralClustering", //edit
                 // tags: ["Python", "PyTorch", "Machine Learning"] 
             },
 
@@ -83,14 +83,14 @@ const Projects = () => {
             {
                 title: "Mentor-Mentee Web application for QueenB",
                 description: "An application that aims to connect mentors and mentees. Developed using React, Express, Node.js and PostgreSQL",
-                githubLink: "https://github.com/yourusername/ml-project",
+                githubLink: "https://github.com/Eden-Ismah-Moshe/Queen-B-Bootcamp",
                 // tags: ["Python", "PyTorch", "Machine Learning"]
             },
 
             {
                 title: "MERN application for recipes recommondations",
                 description: "A machine learning project for classification using PyTorch.",
-                githubLink: "https://github.com/yourusername/ml-project",
+                githubLink: "",
                 // tags: ["Python", "PyTorch", "Machine Learning"]
             },
 
@@ -101,14 +101,14 @@ const Projects = () => {
             {
                 title: "Image description generator",
                 description: "using computer vision models, constructed a platform for uploading an image and receiveing a verbal description of it. Using sprchj, I managed to result with a nice UI for this task ",
-                githubLink: "https://github.com/yourusername/ml-project",
+                githubLink: "https://github.com/MikaHurvits/Image-description-generator",
                 // tags: ["Python", "PyTorch", "Machine Learning"]
             },
 
             {
                 title: "Password strength predicator",
                 description: "Developed a model that evaluates password strength ans suggest improvments based on linguistic patterns.",
-                githubLink: "https://github.com/yourusername/ml-project",
+                githubLink: "",
                 // tags: ["Python", "PyTorch", "Machine Learning"]
             },
 

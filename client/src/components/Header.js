@@ -18,7 +18,7 @@ const Header = () => {
             />
             <span className="header-links">            
                 <Link to="/about">About</Link>
-                {/* <Link to="/projects">Projects</Link> */}
+                <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>
             </span>
         </div>    

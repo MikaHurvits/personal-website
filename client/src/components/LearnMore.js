@@ -12,6 +12,7 @@ const LearnMore = () => {
                 <button><FaCode className="button-icon" /> my work</button>
                 <button><FaEnvelope className="button-icon" /> contact me</button> */}
                 <button className="button-icon" onClick={() => navigate('/about')}> about me </button>
+                <button className="button-icon" onClick={() => navigate('/projects')}> see my projects</button>
                 {/* <button className="button-icon"> my work </button> */}
                 <button className="button-icon" onClick={() => navigate('/contact')}> contact me</button>
             

@@ -8,8 +8,7 @@
   
   
 .intro-cv {
-  padding: 3vh 8vw;
-  /* font-size: xx-small; */
+  padding: 3vh 10vw 3vh 10vw;
   text-align: left;
   font-size: 1.4vw;
 
@@ -40,7 +39,7 @@
     margin: auto;
     /* padding: 100px 1em; */
     /* padding: 8em 0 7em 0 */
-    padding-top: 5vh;
+    padding:6vh 11vw 1vh 11vw;
     
   
   }
@@ -158,7 +157,7 @@
     text-align: center;
     /* font-size: small; */
     font-size: 2.3vw;
-
+  
    } 
   
   
